@@ -9,3 +9,8 @@
 .card-msg {
   margin: 0;
 }
+
+.preloader-wrapper {
+  margin-left: 30px;
+  margin-top: 3px;
+}
