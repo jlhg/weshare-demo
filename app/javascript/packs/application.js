@@ -12,6 +12,7 @@ window.$ = require('jquery');
 require('materialize-css/dist/js/materialize');
 require('materialize-css/dist/css/materialize.css');
 require('./application.css');
+require('./favicon.ico');
 
 $(document).ready(function (){
   let btnUploadFile = $('#btn-upload-file');
