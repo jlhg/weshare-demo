@@ -12,7 +12,7 @@ class HomeController < ApplicationController
     when /result :0/
       render json: { result: "很抱歉，您的車不在停車格內，請停妥後再次嘗試。" }
     else
-      render json: { result: "系統辨識失敗。" }
+      render json: { result: "影像辨識失敗。" }
     end
   end
 end
