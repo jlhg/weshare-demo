@@ -51,7 +51,7 @@ $(document).ready(function (){
         readUrl(self, imagePreview);
         Materialize.fadeInImage(imagePreview);
         imagePreview.removeClass('hide');
-        cardContent.text('系統辨識中，請稍候。');
+        cardContent.text('影像辨識中，請稍候。');
         preloader.removeClass('hide');
       },
       success: function (data) {
