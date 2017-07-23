@@ -1,1 +1,1 @@
-predictor_path: /path/to/predict.py
+predictor_url: http://127.0.0.1:5000
